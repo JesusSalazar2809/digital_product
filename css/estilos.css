@@ -1,0 +1,224 @@
+
+
+/* variables */
+:root{
+  --color_base:#7ACC2D;
+}
+
+
+
+/* variables */
+html, body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family: 'Roboto', sans-ser;
+}
+
+nav{
+  background-color:var(--color_base);
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+
+}
+
+nav li a{
+  color: black;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: white;
+}
+
+
+/* Mean section */
+
+.main_section{
+  padding:15%;
+  text-align: center;
+}
+
+.products {
+  background-image: url("../imagenes/Trazado.png");
+  height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 25%;
+  display: flex;
+
+}
+.product{
+  padding: 10px;
+  margin-top: -400px;
+}
+.product .content{
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 10px black;
+
+}
+
+.img_content{
+  text-align: center;
+}
+
+.main_botton{
+  background-color: var(--color_base);
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border: 0px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main_botton:hover{
+  background-color: #3d710c;
+
+}
+
+.decoracion{
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+}
+
+
+.deco_content{
+  background-color: white;
+  padding: 20px;
+  margin: 40px;
+  text-align: center;
+  font-size: 17px;
+  box-shadow: 0 0 10px black;
+}
+
+.titulo{
+  text-align: center;
+  font-size: 40px;
+  padding: 8%;
+}
+
+.men_img{
+  text-align: center;
+
+}
+
+.txt_men{
+  text-align: center;
+  font-size: 30px;
+  padding:0px;
+
+}
+/* ------------------------------ >Aqui comienza ventas */
+.modulo_pago_img{
+  background-color: #927AC2;
+  box-shadow:0px 0 2px 1px #e6e5e9;
+  padding: 10px;
+  border-radius: 90px;
+  width: 280px;
+}
+
+.titulo11 h1{
+  text-align: center;
+  font-size: 40px;
+  padding: 5px;
+}
+
+.img_mod{
+  display: block;
+}
+
+.modulo_pago_inputs {
+  background-color: white;
+  box-shadow:0px 0 2px 3px #e6e5e9;
+  text-align: left;
+  font-weight: inherit;
+}
+
+/* ------------------------------------ comienzo del formulario */
+
+.data{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+form label{
+  font-weight: bold;
+}
+
+.modulo_pago_inputs .main_botton{
+  margin-top: 10px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 20px;
+
+}
+
+/* ------------------------------------ fin del formulario */
+/* ------------------------------------ fin del ventas */
+
+/* ------------------------------------ comienzo del exito */
+.exito_body{
+  background-color: black;
+  text-align: center;
+}
+.exito_body h1{
+  color: white;
+  font-size: 50px;
+}
+
+.exito_body input{
+  max-width: 30%;
+  padding: 20px;
+  margin: 20px;
+  font-size: 30px;
+}
+/* ------------------------------------ fin del exito */
+
+/* ----------------------------------> inicio del footer */
+
+footer{
+  background-color: black;
+  color: white;
+  font-size: 13px;
+  text-align: left;
+
+}
+
+footer li{
+  list-style:none;
+
+}
+
+.H2{
+  text-decoration-line: underline;
+  color: white;
+}
+.H2:hover{
+  color: var(--color_base);
+  cursor: pointer;
+
+}
+
+/* ------------------------------------ fin del footeer */

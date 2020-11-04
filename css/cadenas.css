@@ -1,0 +1,124 @@
+.contenedor{
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-size: 17px;
+}
+
+
+.filas{
+  display: flex;
+  text-align: center;
+}
+
+.col-1{
+  width: 70%;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.col-2{
+  width: 20%;
+}
+
+.col-3{
+  width: 30%;
+}
+
+.col-4{
+  width: 80%;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.col-41{
+  width: 80%;
+  padding: 20px;
+
+}
+.col-41 h3{
+  width: 80%;
+  padding: 20px;
+  font-size: 17px;
+}
+
+
+.col-5{
+  width: 50%;
+}
+
+.col-6{
+  width: 60%;
+}
+
+.col-7{
+  width: 70%;
+}
+
+.col-8{
+  width: 80%;
+  padding: 20px;
+  font-size: 30px;
+}
+.col-81{
+  width: 80%;
+  padding: 20px;
+}
+
+.col-42{
+  width: 70%;
+  padding: 20px;
+  text-align: left;
+}
+
+.col-42 p{
+  width: 70%;
+  text-align: center;
+  color:#0066FF;
+}
+
+.col-82{
+  width: 30%;
+  padding: 20px;
+}
+
+.col-81 h3{
+  width: 80%;
+  padding: 20px;
+  font-size: 17px;
+}
+
+.col-9{
+  width: 90%;
+}
+
+.col-10{
+  width: 70%;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.titulo22{
+  text-align: center;
+  font-size: 40px;
+  padding: 3%;
+}
+
+.col-42, .col-82, .col-1,.col-2,.col-3,.col-4, .col-41, .col-5,.col-6,.col-7,.col-8, .col-81, .col-9,.col-10{
+  padding: 20px;
+}
+
+@media(max-width:900px){
+  .filas{
+    display: inherit;
+  }
+  .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10{
+    width: 100%;
+  }
+}
+
+.h1_P{
+  padding:6%;
+  text-align: center;
+  font-size: 40px;
+}
